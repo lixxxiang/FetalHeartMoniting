@@ -1,0 +1,7 @@
+
+gin-->LoginActivity-->httpServlet doGet(get info from ServletForGetMethod.java)-->查询数据库返回
+	 -->RegisterActivity-->建表MysqlJDBC.java
+upload record-->AudioRecord(录音类)-->ClsOscilloscope(示波器类)-->获得wav文件-->HttpServlet doPost()-->新建个人文件夹-->入库MysqlJDBC.java
+download record-->Socket(DownloadServer.java)
+calendar-->wheelView()
+功能：登录进去，录音 ,显示波形图 ,上传 ,下载 ,显示下载内容 
