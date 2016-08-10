@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+
+    <include layout="@layout/main_download" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="164dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="30dip"
+        android:background="@drawable/selector_message_button"
+        android:text="查看可下载的文件"
+        android:textColor="#2C74B0" />
+
+    <!-- <Button
+                android:id="@+id/buttonLoadPicture"
+                android:layout_width="100dip"
+                android:layout_height="30dip"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="30dip"
+                android:background="@drawable/selector_message_button"
+                android:text="@string/look_pictrue"
+                android:textColor="#2C74B0" >
+            </Button> -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

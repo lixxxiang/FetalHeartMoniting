@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_gravity="center"
+            android:text="请选择开始时间：" />
+
+       
+
+        <Button
+            android:id="@+id/tv_date"
+            android:layout_width="100dip"
+            android:layout_height="30dip"
+            android:clickable="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="1dip"
+                android:layout_marginTop="3dip"
+                android:background="@drawable/selector_message_button"
+
+                android:textColor="#2C74B0"
+            android:text="弹出日期" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_gravity="center"
+            />
+       
+    </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" >
+
+      <TextView
+          android:id="@+id/textView3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="请选择结束时间：" />
+
+      <Button
+          android:id="@+id/button1"
+          android:layout_width="100dip"
+            android:layout_height="30dip"
+            android:clickable="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="1dip"
+                android:layout_marginTop="3dip"
+                android:background="@drawable/selector_message_button"
+
+                android:textColor="#2C74B0"
+          android:text="弹出日期" />
+
+      <TextView
+          android:id="@+id/textView4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+           android:layout_gravity="center"
+          />
+   
+  </LinearLayout>
+
+  <Button
+      android:id="@+id/button2"
+	  android:layout_width="100dip"
+      android:layout_height="30dip"
+      android:clickable="true"
+      android:layout_gravity="center"
+      android:layout_marginBottom="1dip"
+      android:layout_marginTop="3dip"
+      android:background="@drawable/selector_message_button"
+      android:textColor="#2C74B0"
+      android:text="点击获取" />
+
+  <TextView
+      android:id="@+id/textView5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+       android:layout_gravity="center"
+      />
+
+</LinearLayout>

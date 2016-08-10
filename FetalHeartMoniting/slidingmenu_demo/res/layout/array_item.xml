@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/TextView"
+	android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/blue"
+        android:dividerHeight="1dip"
+        android:fadingEdge="none"
+        android:padding="15dp"
+        android:scrollbars="none"
+        android:scrollingCache="false"
+        android:textColor="#2C74B0"
+/>
+
+<!-- <ListView
+        android:id="@+id/listview"
+        android:layout_below="@id/music_energy"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:divider="#00000000"
+        android:dividerHeight="10dip"
+        android:fadingEdge="none"
+        android:padding="15dp"
+        android:scrollbars="none"
+        android:scrollingCache="false" >
+    </ListView>  -->
